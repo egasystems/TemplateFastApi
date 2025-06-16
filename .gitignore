@@ -1,0 +1,37 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# __pycache__ y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+
+# Archivos de bases de datos temporales (si los usas)
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración del editor (opcional)
+.vscode/
+.idea/
+
+# Otros
+*.bak
+*.swp
+*.tmp
+
+app/modules/*
+!app/modules/.gitkeep
