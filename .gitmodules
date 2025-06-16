@@ -1,0 +1,3 @@
+[submodule "app/modules/Crypto"]
+	path = app/modules/Crypto
+	url = git@github.com:egasystems/ApiCrypto.git
